@@ -1,0 +1,54 @@
+[telegram]
+chat_name = "test_chat"
+my_name = "test_bot"
+api_id = 12345
+api_hash = "test_hash"
+
+[vk]
+token = "test_token"
+group_id = 123456789
+admins_list = [1]
+
+[paths]
+directory_input = "./input/"
+directory_output = "./output/"
+PREMIUM_USERS_FILE = "premium_users.txt"
+driver_path = "./chromedriver/chromedriver"
+
+[messages]
+error = "Невозможно выполнить запрос."
+face_not_found = "Лицо не найдено! Пожалуйста, отправьте фотографию лучшего качества с хорошо видимым лицом. "
+not_recognized = "Команда не опознанна. Попробуйте снова."
+send_photo = "Пожалуйста, отправьте фото."
+select_action = "Выберите действие."
+request_ok = "Ваша заявка принята\nВаш номер в очереди: "
+not_subscribed = "К сожалению, мы не можем обработать ваш запрос, пока вы не подпишетесь на нашу группу)"
+set_level = "Пожалуйста, выберите уровень запроса."
+set_pay = "Пожалуйста, осуществите платеж."
+set_race = "Oк. Выберите рассу."
+set_strength = "Oк. Выберите силу фильтра."
+set_sex = "Пожалуйста, укажите ваш пол (\"Мужской\" - искать близнецов среди мужчин, \"Женский\" - среди женщин)."
+buy_advanced_level_text = "Полный доступ"
+contact_clone_text = "Связаться с двойником"
+accept_response_text = "Ваша заявка принята, ожидайте ответа администратора."
+how_get_advance_level_text = "Способы получения полного доступа.\n1. Приобрести платную подписку на месяц.\n2. Приобрести полный доступ на один запрос у администратора."
+
+[commands]
+pattern_admin_add_premium = "/add-user"
+pattern_user_help = "/help"
+
+[choices]
+choice_list = ["Смена расы", "Найти двойника", "Другое", "Обратная связь"]
+race_list = ["Asia", "Africa", "Europe", "India"]
+race_list_rus = ["Азия", "Африка", "Европа", "Индия"]
+strength_list = ["Weak", "Normal", "Strong"]
+strength_list_rus = ["Слабый", "Нормальный", "Сильный"]
+level_find_clone_list = ["Обычный", "Продвинутый"]
+buy_methods_list = ["Оформить подписку", "Купить через администратора"]
+sex_list = ["Мужской", "Женский"]
+
+[keyboard]
+key_color_1 = "positive"
+
+[other]
+time_clean = 23
